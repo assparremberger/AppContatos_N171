@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppContatos</string>
+
+    <string-array name="listaDeCidades">
+        <item>Selecione...</item>
+        <item>Alvorada</item>
+        <item>Canoas</item>
+        <item>Capão da Canoa</item>
+        <item>Porto Alegre</item>
+        <item>Viamão</item>
+        <item>Xangri-Lá</item>
+    </string-array>
+
+
+</resources>
