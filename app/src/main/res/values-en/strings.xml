@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppContatos</string>
+
+    <string-array name="listaDeCidades">
+        <item>Select...</item>
+        <item>Alvorada</item>
+        <item>Canoas</item>
+        <item>Capão da Canoa</item>
+        <item>Porto Alegre</item>
+        <item>Viamão</item>
+        <item>Xangri-Lá</item>
+    </string-array>
+
+    <string name="txtNome">Name:</string>
+    <string name="txtTelefone">Phone:</string>
+    <string name="txtCidade">City:</string>
+    <string name="txtSexo">Gender:</string>
+    <string name="txtMasculino">Male</string>
+    <string name="txtFeminino">Female</string>
+    <string name="txtEsporte">Practice Sport</string>
+    <string name="txtSalvar">SAVE</string>
+    <string name="hintNome">Enter name here</string>
+    <string name="hintTelefone">Enter phone here</string>
+
+    <string name="txtCadastrar">REGISTER</string>
+    <string name="txtListar">LISTER</string>
+
+
+
+
+</resources>

@@ -11,5 +11,21 @@
         <item>Xangri-Lá</item>
     </string-array>
 
+    <string name="txtNome">Nome:</string>
+    <string name="txtTelefone">Telefone:</string>
+    <string name="txtCidade">Cidade:</string>
+    <string name="txtSexo">Sexo:</string>
+    <string name="txtMasculino">Masculino</string>
+    <string name="txtFeminino">Feminino</string>
+    <string name="txtEsporte">Pratico Esporte</string>
+    <string name="txtSalvar">SALVAR</string>
+    <string name="hintNome">Digite aqui o Nome</string>
+    <string name="hintTelefone">Digite aqui o Telefone</string>
+
+    <string name="txtCadastrar">CADASTRAR</string>
+    <string name="txtListar">LISTAR</string>
+
+
+
 
 </resources>

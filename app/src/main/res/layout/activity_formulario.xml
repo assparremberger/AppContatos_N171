@@ -14,27 +14,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nome:"
+            android:text="@string/txtNome"
             style="@style/meusLabels"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite aqui o Nome"
+            android:hint="@string/hintNome"
             android:id="@+id/etNome"
+            style="@style/meusCampos"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Telefone:"
+            android:text="@string/txtTelefone"
             style="@style/meusLabels"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite aqui o Telefone"
+            android:hint="@string/hintTelefone"
             android:inputType="phone"
             android:id="@+id/etTelefone"
+            style="@style/meusCampos"
             />
 
         <TextView
@@ -60,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="Sexo:"
                 style="@style/meusLabels"/>
-            
+
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -69,13 +71,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/rbFeminino"
-                    android:text="Feminino"/>
+                    android:text="Feminino"
+                    style="@style/meusCampos"/>
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/rbMasculino"
-                    android:text="Masculino"/>
+                    android:text="Masculino"
+                    style="@style/meusCampos"/>
 
             </RadioGroup>
 
@@ -86,12 +90,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/cbEsporte"
-            android:text="Pratico esportes"/>
+            android:text="Pratico esportes"
+            style="@style/meusCampos"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SALVAR"
+
             android:id="@+id/btnSalvar"
             android:layout_gravity="center_horizontal"/>
 
